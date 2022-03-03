@@ -3,15 +3,83 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Navbar CSS Begins here */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b1d0e0;
 }
 
-.App {
+.name {
+  text-decoration: none;
+  color: #406882;
+  font-size: 2.6rem;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name:hover {
+  color: #1a374d;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.contact-links {
+  list-style-type: none;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #406882;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contact-links a:hover {
+  color: #1a374d;
+}
+
+/* Navbar CSS ends here */
+
+/* Profile CSS starts here */
+
+.full-profile {
+  width: 35%;
+  border: 4px solid #1a374d;
+  background-color: #406882;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.full-profile img {
+  width: 90%;
+  margin-top: 2%;
+  border: 11px solid rgb(70, 48, 24);
+}
+
+.profile-content {
+  width: 90%;
+  margin: 2% 0;
+  border: 2px solid #1a374d;
+  padding: 2%;
+  background-color: #5a93b9;
+}
+
+.profile-content h2 {
   text-align: center;
+  font-size: 2.5rem;
+}
+
+.profile-content p {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #1a374d;
 }

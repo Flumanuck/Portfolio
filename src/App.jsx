@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import Body from "./components/Body";
+
 function App() {
   return (
     <div className="App">
-      <h1>Test123</h1>
+      <Navbar />
+      <Profile />
     </div>
   );
 }
