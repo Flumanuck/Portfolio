@@ -8,7 +8,7 @@ function Navbar() {
       </h1>
       <ul className="contact-links">
         <li>
-          <a href="tel:+19142632520">(914) 263-2520 </a>
+          <a href="tel:+18455216432">(845) 521-6432 </a>
         </li>
         <li>
           <a href="mailto:machlisj@gmail.com">machlisj@gmail.com</a>
