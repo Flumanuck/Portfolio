@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ab2353eb.css",
-    "main.js": "/Portfolio/static/js/main.2b9a0e74.js",
+    "main.js": "/Portfolio/static/js/main.6a1a887b.js",
     "static/media/Readme-Generator-Screenshot.png": "/Portfolio/static/media/Readme-Generator-Screenshot.e73f58b0130f9a5caa60.png",
     "static/media/Screenshot-note.png": "/Portfolio/static/media/Screenshot-note.f8e1f8fb0ea874abbb80.png",
     "static/media/Headshot.jpg": "/Portfolio/static/media/Headshot.289ad2445e5f71156384.jpg",
@@ -9,10 +9,10 @@
     "static/media/pokedex-placeholder.png": "/Portfolio/static/media/pokedex-placeholder.fd1392d4afd1e237c70b.png",
     "index.html": "/Portfolio/index.html",
     "main.ab2353eb.css.map": "/Portfolio/static/css/main.ab2353eb.css.map",
-    "main.2b9a0e74.js.map": "/Portfolio/static/js/main.2b9a0e74.js.map"
+    "main.6a1a887b.js.map": "/Portfolio/static/js/main.6a1a887b.js.map"
   },
   "entrypoints": [
     "static/css/main.ab2353eb.css",
-    "static/js/main.2b9a0e74.js"
+    "static/js/main.6a1a887b.js"
   ]
 }
