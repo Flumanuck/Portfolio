@@ -10,6 +10,7 @@ function App() {
         <Profile />
         <Body />
       </div>
+      <div className="bottom" />
     </div>
   );
 }

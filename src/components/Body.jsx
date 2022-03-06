@@ -1,31 +1,44 @@
+import { useState } from "react";
 import sites from "../db/sites";
 
 function Body() {
+  const [selectedSite, setSelectedSite] = useState(sites[0]);
+
+  const handleClick = (e) => {
+    const selectedName = e.target.innerText;
+    const newSelectedSite = sites.filter((site) => {
+      return site.name === selectedName;
+    });
+    setSelectedSite(newSelectedSite[0]);
+  };
+
   return (
     <div className="main-body">
       <ul className="site-links">
-        <li>
-          <a href="#site-a"> Site A </a>
-        </li>
-        <li>
-          <a href="#site-b"> Site B </a>
-        </li>
-        <li>
-          <a href="#site-c"> Site C </a>
-        </li>
-        <li>
-          <a href="#site-d"> Site D </a>
-        </li>
+        {sites.map((site) => {
+          return (
+            <li key={site.id}>
+              <button onClick={handleClick}>{site.name}</button>
+            </li>
+          );
+        })}
       </ul>
       <div className="site-space">
-        <img src={require("../images/Prototype.png")} alt="filler" />
-        <h2>Site Name Here</h2>
-        <p className="site-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-          reiciendis cupiditate recusandae aliquid exercitationem architecto
-          neque ipsa sapiente in laborum blanditiis quas, cum sed ducimus
-          pariatur ut minus quis autem.
-        </p>
+        <a
+          className="site-img"
+          href={selectedSite.link}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img src={selectedSite.image} alt="filler" />
+        </a>
+        <h2>{selectedSite.name}</h2>
+        <div className="site-description">
+          <p>{selectedSite.description}</p>
+          <p>
+            Github: <a href={selectedSite.github}>{selectedSite.github}</a>
+          </p>
+        </div>
       </div>
     </div>
   );
