@@ -36,7 +36,7 @@ function Body() {
         <div className="site-description">
           <p>{selectedSite.description}</p>
           <p>
-            Github: <a href={selectedSite.github}>{selectedSite.github}</a>
+            <a href={selectedSite.github}>Github</a>
           </p>
         </div>
       </div>
