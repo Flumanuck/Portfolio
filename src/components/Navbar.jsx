@@ -21,6 +21,11 @@ function Navbar() {
             LinkedIn
           </a>
         </li>
+        <li>
+          <a href="https://docs.google.com/document/d/12yn2fOGpaq6NHm9xh28hhAnDLreJnpht/edit?usp=sharing&ouid=112036088503075494730&rtpof=true&sd=true">
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );
