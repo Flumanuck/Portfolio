@@ -159,3 +159,8 @@ body {
   background-color: #4b9fe0;
   height: 30vh;
 }
+
+div,
+nav {
+  border: 2px dashed greenyellow;
+}

@@ -4,8 +4,8 @@ import sites from "../db/sites";
 function Body() {
   const [selectedSite, setSelectedSite] = useState(sites[0]);
 
-  const handleClick = (e) => {
-    const selectedName = e.target.innerText;
+  const handleClick = (event) => {
+    const selectedName = event.target.innerText;
     const newSelectedSite = sites.filter((site) => {
       return site.name === selectedName;
     });
@@ -30,7 +30,7 @@ function Body() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img src={selectedSite.image} alt="filler" />
+          <img src={selectedSite.image} alt={selectedSite.alt} />
         </a>
         <h2>{selectedSite.name}</h2>
         <div className="site-description">
