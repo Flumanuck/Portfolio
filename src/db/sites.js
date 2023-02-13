@@ -1,12 +1,12 @@
 const sites = [
   {
     id: 0,
-    name: "Pokedex",
-    link: "#placeholder",
-    github: "flumanuck.github.com",
-    image: require("../images/pokedex-placeholder.png"),
+    name: "Shantae Merch Tracker",
+    link: "https://flumanuck.github.io/Shantae-Tracker",
+    github: "https://github.com/Flumanuck/Shantae-Tracker",
+    image: require("../images/Screenshot-Merch.JPG"),
     description:
-      "This is a website that allows you to look up various Pokemon and information about them. (This application is coming soon)",
+      "This is a website that allows the user to track what official Shantae merchandise they have and do not have by compiling them in a list. (Note that this is only a proof of concept and merchandise will be added to it periodically)",
   },
   {
     id: 1,
