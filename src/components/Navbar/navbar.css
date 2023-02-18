@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #71aac5;
+}
+
+.name {
+  text-decoration: none;
+  color: #406882;
+  font-size: 42px;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,48 @@
+.site-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  list-style-type: none;
+}
+
+.full-profile {
+  width: 35%;
+  border: 4px solid #1a374d;
+  background-color: #406882;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.full-profile img {
+  width: 70%;
+  margin-top: 2%;
+  border: 11px solid rgb(70, 48, 24);
+  height: 50%;
+}
+
+.profile-content {
+  width: 90%;
+  margin: 2% 0;
+  border: 2px solid #1a374d;
+  padding: 2%;
+  background-color: #5a93b9;
+}
+
+.profile-content h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.profile-content p {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #1a374d;
+}
+
+@media only screen and (max-width: 850px) {
+  .full-profile {
+    width: 100%;
+  }
+  /*Big smartphones [426px -> 600px]*/
+}

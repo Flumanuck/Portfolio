@@ -1,5 +1,6 @@
 import { useState } from "react";
-import sites from "../db/sites";
+import sites from "../../db/sites.js";
+import "./body.css";
 
 function Body() {
   const [selectedSite, setSelectedSite] = useState(sites[0]);
