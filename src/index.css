@@ -14,11 +14,11 @@ body {
 .main {
   display: flex;
 }
-
+/* 
 div,
 nav {
   border: 2px dashed greenyellow;
-}
+} */
 
 ul {
   margin: 0;

@@ -18,7 +18,6 @@
   width: 70%;
   margin-top: 2%;
   border: 11px solid rgb(70, 48, 24);
-  height: 50%;
 }
 
 .profile-content {
@@ -36,11 +35,10 @@
 
 .profile-content p {
   text-align: center;
-  font-size: 1.25rem;
-  color: #1a374d;
+  font-size: 20px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 925px) {
   .full-profile {
     width: 100%;
   }
