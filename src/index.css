@@ -24,9 +24,8 @@ ul {
   margin: 0;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 925px) {
   .main {
     flex-direction: column;
   }
-  /*Big smartphones [426px -> 600px]*/
 }

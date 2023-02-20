@@ -74,12 +74,21 @@
   .main-body {
     width: 100%;
   }
+
+  .site-space,
+  .site-links {
+    border-left: solid black 4px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
   .site-links {
     flex-direction: column;
     align-items: center;
+  }
+
+  .site-space {
+    border-left: solid black 4px;
   }
 
   .site-links button {

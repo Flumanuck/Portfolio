@@ -21,9 +21,6 @@
   color: #1a374d;
 }
 
-@media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
-}
 @media only screen and (max-width: 925px) {
   .contact-links {
     flex-direction: column;
