@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8f74af4.css",
-    "main.js": "/static/js/main.a5f172cc.js",
-    "static/media/Screenshot-Merch.JPG": "/static/media/Screenshot-Merch.3dcc3c30873dcaa8b25e.JPG",
+    "main.css": "/static/css/main.c05f15c3.css",
+    "main.js": "/static/js/main.45152fb0.js",
+    "static/media/Screenshot-Merch.png": "/static/media/Screenshot-Merch.f25d52112153f807845b.png",
+    "static/media/password-generator.png": "/static/media/password-generator.67756b4871e3f5c34aac.png",
     "static/media/Readme-Generator-Screenshot.png": "/static/media/Readme-Generator-Screenshot.e73f58b0130f9a5caa60.png",
-    "static/media/Screenshot-note.png": "/static/media/Screenshot-note.f8e1f8fb0ea874abbb80.png",
-    "static/media/password-generator.JPG": "/static/media/password-generator.a530c31a63ade0c31b17.JPG",
+    "static/media/Screenshot-note.png": "/static/media/Screenshot-note.2d6ba7aa04751b59026c.png",
     "index.html": "/index.html",
-    "main.b8f74af4.css.map": "/static/css/main.b8f74af4.css.map",
-    "main.a5f172cc.js.map": "/static/js/main.a5f172cc.js.map"
+    "main.c05f15c3.css.map": "/static/css/main.c05f15c3.css.map",
+    "main.45152fb0.js.map": "/static/js/main.45152fb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f74af4.css",
-    "static/js/main.a5f172cc.js"
+    "static/css/main.c05f15c3.css",
+    "static/js/main.45152fb0.js"
   ]
 }
