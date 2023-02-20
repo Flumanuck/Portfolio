@@ -4,7 +4,7 @@ const sites = [
     name: "Shantae Merch Tracker",
     link: "https://flumanuck.github.io/Shantae-Tracker",
     github: "https://github.com/Flumanuck/Shantae-Tracker",
-    image: require("../images/Screenshot-Merch.JPG"),
+    image: require("../images/Screenshot-Merch.png"),
     description:
       "This is a website that allows the user to track what official Shantae merchandise they have and do not have by compiling them in a list. (Note that this is only a proof of concept and merchandise will be added to it periodically)",
     alt: "Shantae Merch Tracker merchandise page",
@@ -24,7 +24,7 @@ const sites = [
     name: "Password Generator",
     link: "https://flumanuck.github.io/password-generator/",
     github: "https://github.com/Flumanuck/password-generator",
-    image: require("../images/password-generator.JPG"),
+    image: require("../images/password-generator.png"),
     description:
       "This website is intended to create a randomly generated password based on criteria from the user using variables, arrays, functions, and if/else statements within the confines of Javascript.",
     alt: "Password Generator Screenshot",

@@ -1,0 +1,32 @@
+.contact-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style-type: none;
+  /* For chromium based user agent stylesheet default left padding0 */
+  padding-left: 0;
+  background-color: rgb(129, 157, 182);
+  margin: 0px;
+  border-top: solid black 4px;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #406882;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.contact-links a:hover {
+  color: #1a374d;
+}
+
+@media only screen and (max-width: 925px) {
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-links li {
+    margin-bottom: 20px;
+  }
+}

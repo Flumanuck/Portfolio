@@ -1,7 +1,9 @@
+import "./profile.css";
+
 function Profile() {
   return (
     <div className="full-profile">
-      <img src={require("../images/Headshot.jpg")} alt="Jacob's Headshot" />
+      <img src={require("../../images/Headshot.jpg")} alt="Jacob's Headshot" />
       <div className="profile-content">
         <h2>Jacob Machlis</h2>
         <p>

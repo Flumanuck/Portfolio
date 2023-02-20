@@ -1,6 +1,7 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/";
 import Profile from "./components/Profile";
 import Body from "./components/Body";
+import Footer from "./components/Footer/";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Profile />
         <Body />
       </div>
-      <div className="bottom" />
+      <Footer />
     </div>
   );
 }
