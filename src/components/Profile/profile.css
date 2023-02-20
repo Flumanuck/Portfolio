@@ -12,25 +12,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .full-profile img {
   width: 70%;
-  margin-top: 2%;
-  border: 11px solid rgb(70, 48, 24);
+  border: 11px solid rgb(0, 0, 0);
+  margin-top: 45px;
 }
 
 .profile-content {
   width: 90%;
-  margin: 2% 0;
+  margin-bottom: 20px;
   border: 2px solid #1a374d;
-  padding: 2%;
+  padding: 5px;
   background-color: #5a93b9;
 }
 
 .profile-content h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 40px;
+  color: #162937;
+  opacity: 0.9;
+  margin: 0px;
 }
 
 .profile-content p {
@@ -41,6 +45,11 @@
 @media only screen and (max-width: 925px) {
   .full-profile {
     width: 100%;
+  }
+
+  .full-profile img {
+    width: 50%;
+    margin-bottom: 20px;
   }
   /*Big smartphones [426px -> 600px]*/
 }

@@ -86,4 +86,8 @@
     margin-bottom: 5px;
     font-size: 17.5px;
   }
+
+  .main-body img {
+    width: 99%;
+  }
 }
