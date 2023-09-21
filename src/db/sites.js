@@ -31,12 +31,12 @@ const sites = [
   },
   {
     id: 3,
-    name: "Note Taker",
-    link: "https://github.com/Flumanuck/note-taker",
-    github: "https://github.com/Flumanuck/note-taker",
-    image: require("../images/Screenshot-note.png"),
+    name: "Definition and Translation App",
+    link: "https://main.d916lbd27q0kh.amplifyapp.com/",
+    github: "https://github.com/Flumanuck/Definition-Translation-App",
+    image: require("../images/Translation-app-screenshot.png"),
     description:
-      "This application allows the user to write, save, and delete notes using Express.",
+      "This is an application in which the user can input any English word and get a brief definition as well as a Japanese translation. Japanese to English functonality to be added.",
     alt: "Note Taker Website screenshot",
   },
 ];
