@@ -12,7 +12,7 @@ function Profile() {
           Programming Bootcamp,. He specializes in HTML, CSS, JavaScript, and
           React for Front-End Development. He is also proficient in back-end
           development using Python, Flask, and AWS services. He can speak
-          conversation Japanese and lived in Japan for over 3 years. He is
+          conversational Japanese and lived in Japan for over 3 years. He is
           hoping to return very soon.
         </p>
       </div>
