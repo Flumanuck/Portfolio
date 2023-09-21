@@ -6,7 +6,7 @@ const sites = [
     github: "https://github.com/Flumanuck/Definition-Translation-App",
     image: require("../images/Translation-app-screenshot.png"),
     description:
-      "This is an application in which the user can input any English word and get a brief definition as well as a Japanese translation. Japanese to English functonality to be added.",
+      "This is an application in which the user can input any English word and get a brief definition as well as a Japanese translation. Japanese to English functionality to be added.",
     alt: "Note Taker Website screenshot",
   },
   {
