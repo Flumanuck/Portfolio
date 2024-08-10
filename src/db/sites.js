@@ -1,6 +1,16 @@
 const sites = [
   {
     id: 0,
+    name: "Megaman BAttle Network 4 Mystery Data Tracker",
+    link: "https://mmbn4-item-tracker-1.onrender.com/",
+    github: "https://github.com/Flumanuck/Mmbn4-Item-Tracker",
+    image: require("../images/Mmbn4-tracker-screenshot.png"),
+    description:
+      "This is a webapp designed to help the uer keep track of Blue Mystery Data and Purple Mystery data, the items found in Megaman battle network, to help the user track what items they do and do not have in their playhrough. This site uses a login system so that you can keep track of your items even over mobile devices.",
+    alt: "MMBN4 Item Tracker Screenshot",
+  },
+  {
+    id: 1,
     name: "Definition and Translation App",
     link: "https://main.d916lbd27q0kh.amplifyapp.com/",
     github: "https://github.com/Flumanuck/Definition-Translation-App",
@@ -10,24 +20,14 @@ const sites = [
     alt: "Note Taker Website screenshot",
   },
   {
-    id: 1,
-    name: "README Generator",
-    link: "https://github.com/Flumanuck/readme-generator",
-    github: "https://github.com/Flumanuck/readme-generator",
-    image: require("../images/Readme-Generator-Screenshot.png"),
-    description:
-      "This is an application used to dynamically create README files using node.js, fs, and inquirer.",
-    alt: "README Generator screenshot",
-  },
-  {
     id: 2,
-    name: "Password Generator",
-    link: "https://flumanuck.github.io/password-generator/",
-    github: "https://github.com/Flumanuck/password-generator",
-    image: require("../images/password-generator.png"),
+    name: "Python Chatbot",
+    link: "https://github.com/Flumanuck/python-chatbot",
+    github: "https://github.com/Flumanuck/python-chatbot",
+    image: require("../images/Chatbot-Screenshot.png"),
     description:
-      "This website is intended to create a randomly generated password based on criteria from the user using variables, arrays, functions, and if/else statements within the confines of Javascript.",
-    alt: "Password Generator Screenshot",
+      "This is a console based application using python that allows you to speak with and recieve vocal responses from an AI chatbot with the personality and voice of the user's choice",
+    alt: "Python chatbot screenshot",
   },
   {
     id: 3,
